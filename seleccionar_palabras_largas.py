@@ -18,7 +18,7 @@ def seleccionar_palabras_largas(palabras, longitud_minima):
             raise TypeError("Todos los elementos de la lista deben ser cadenas.")
 
         # Comprobar la longitud mínima
-        if len(palabra) >= longitud_minima:
+        if len(longitud_minima) >= longitud_minima:
             resultado.append(palabra)
 
     return resultado
